@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin Sketch", cursive;
+}
+
+h1 {
+  color: #fff;
+}
+
+section {
+  width: 470px;
+  padding: 30px;
+  min-height: 200px;
+  background-image: url("http://photoshopparainiciantes.com.br/wp-content/uploads/2015/09/Chalkboard-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin: 10px auto;
+  box-shadow: 10px 10px 5px grey;
+}
+
+label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+input[type="checkbox"] {
+  opacity: 0;
+}
+
+button {
+  padding: 5px 20px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  transform: rotate(4deg);
+  outline: 0;
+}
+
+button:active {
+  transform: rotate(0deg);
+  transition: 3ms;
+  outline: 0;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.input input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.input input:active,
+.input input:focus {
+  border-bottom: 2px dashed #fff;
+  outline: none;
+  color: #fff;
+}
+
+.item {
+  color: #fff;
+}
+
+.task {
+  font-size: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.fadeOut {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: 0.5s;
+}
